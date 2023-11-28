@@ -7,9 +7,9 @@ print(f'{asteriks}')
 print('Level Determiner')
 print(f'{asteriks}')
 while 1:
-    age = eval(input('Enter to your age here: '))
+    age = eval(input('Enter your age here: '))
     if age == 0:
-        print('How are able to operate a computer?!')
+        print('How are you able to operate a computer?!')
     elif age < 5:
         print('Hello creche student!')
     elif age == 5:
