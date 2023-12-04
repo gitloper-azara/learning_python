@@ -5,6 +5,7 @@ a data structure
 
 lst = ['one', 'two', 'three', 'four', 'five']
 print(lst)
+
 # trying the append way
 lst.append('six')
 print(lst)
