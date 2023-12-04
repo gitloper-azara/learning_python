@@ -1,5 +1,5 @@
 '''
-using collections.deque for FIFO instead of lists
+using collections.deque for FIFO instead of lists.
 doing inserts and pops from the beginning of a list
 is slow (beacause all of the other elements have to be
 shifted by one)
@@ -18,3 +18,5 @@ queue.popleft()
 print('Success!')
 print('New queue:')
 print(queue)
+
+print('First in First Out(FIFO) executed successfully...')
