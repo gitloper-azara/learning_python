@@ -11,11 +11,15 @@ class Robot:
 
     def hi(self):
         """Robotic greetings and introduction"""
-        print('Hi, I am {}!'.format(x.name))
+        if self.name:
+            print('Hi, I am {}!'.format(self.name))
+        else:
+            print('I am a robot without a name')
 
-x = Robot('Marvin', '1979', 'Kuka')
+x = Robot(None,'1979', 'Kuka')
 y = Robot('Caliban', '1993', 'Tayata')
 x.hi()
+y.hi()
 print(x.name)
 print(y.build_year)
 print(x.__dict__)
