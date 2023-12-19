@@ -8,8 +8,14 @@ class Robot:
         self.build_year = build_year
         self.brand = brand
 
+
+    def hi(self):
+        """Robotic greetings and introduction"""
+        print('Hi, I am {}!'.format(x.name))
+
 x = Robot('Marvin', '1979', 'Kuka')
 y = Robot('Caliban', '1993', 'Tayata')
+x.hi()
 print(x.name)
 print(y.build_year)
 print(x.__dict__)
