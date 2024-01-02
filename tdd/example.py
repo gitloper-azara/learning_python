@@ -1,4 +1,14 @@
 #!/usr/bin/python3
+__test__ = {
+    'numbers': """
+>>> factorial(6)
+720
+
+>>> [factorial(n) for n in range(6)]
+[1, 1, 2, 6, 24, 120]
+"""
+}
+
 """
 This is the 'example' module.
 
